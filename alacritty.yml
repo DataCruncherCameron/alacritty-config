@@ -1,0 +1,49 @@
+font:
+  normal:
+    family: "3270Condensed NFM"
+  size: 16
+
+
+window:
+  opacity: 0.95
+  decorations: full
+
+env:
+  TERM: xterm-256color
+
+
+# Colors (Customised)
+colors:
+  # Default colors
+  primary:
+    background: '0x14001a'
+    foreground: '0xd3c6aa'
+
+  # Normal colors
+  normal:
+    black:   '0x475258'
+    red:     '0xf01519'
+    green:   '0x63e432'
+    yellow:  '0xdbbc7f'
+    blue:    '0x1c4cdd'
+    magenta: '0xd699b6'
+    cyan:    '0x3d85c6'
+    white:   '0xd3c6aa'
+    chocolate: '0x8fce00'
+
+  # Bright colors
+  bright:
+    black:   '0x475258'
+    red:     '0xe67e80'
+    green:   '0xa7c080'
+    yellow:  '0xdbbc7f'
+    blue:    '0x7fbbb3'
+    magenta: '0xd699b6'
+    cyan:    '0x83c092'
+    white:   '0xd3c6aa'
+
+
+  transparent_background_colors: false
+
+key_bindings:
+  - { key: Return, mods: Alt, action: ToggleFullscreen}
