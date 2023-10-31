@@ -2,8 +2,6 @@ font:
   normal:
     family: "3270Condensed NFM"
   size: 16
-
-
 window:
   opacity: 0.95
   decorations: full
@@ -16,7 +14,9 @@ env:
 colors:
   # Default colors
   primary:
-    background: '0x14001a'
+    #background: '0x14001a' #purple tint
+    background: '0x00004d' # blue
+    #background: '0x00001a' # blue
     foreground: '0xd3c6aa'
 
   # Normal colors
